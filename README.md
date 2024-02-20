@@ -7,8 +7,8 @@ Welcome to my portfolio! This is a showcase of my projects, skills, and experien
 
 This portfolio website is built using React.js, showcasing my projects, skills, and experience in the field of [your field or expertise]. It provides an interactive and visually appealing way for visitors to learn about my work and get in touch with me.
 
-![My Profile]('portfolio-new.png')
-![My Profile]('portfolio-new-2.png')
+![](portfolio-new.png)
+![My Profile](portfolio-new-2.png)
 
 
 ## Features
