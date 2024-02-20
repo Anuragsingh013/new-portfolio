@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/Travel.png",
+    "description": " multipage travel website! Designed and developed using Vanilla JavaScript.",
+    "skills": ["Javascript", "Swiper.js", "Aos"],
+    "demo": "https://visionary-capybara-810a55.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/Travel-agency"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/weather-new.png",
+    "description": "weather application! Built with React and styled with Tailwind CSS",
+    "skills": ["React", "Tailwindcss", "Node"],
+    "demo": "https://anurag-weather-app-13055.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/weather-app"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/todo05.png",
+    "description": "Todo Application Crafted with React and enhanced with Tailwind CSS",
+    "skills": ["React", "Tailwindcss", "Node"],
+    "demo": "https://my-todos-00.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/Todo"
+  }
+]
+

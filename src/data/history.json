@@ -1,0 +1,20 @@
+[
+  {
+    "role": "Web Developer Intern",
+    "organisation": "Octanet",
+    "startDate": "Sept, 2023",
+    "endDate": "oct,2023",
+    "experiences": ["Mostly Worked on Logic part", "created many react application"],
+    "imageSrc": "history/octanet.jpeg"
+  },
+
+  {
+    "role": "UI Designer",
+    "organisation": "Self-Employed",
+    "startDate": "Aug, 2021",
+    "endDate": "present",
+    "experiences": ["Worked on many projects", "Designed more than 20+ websites"],
+    "imageSrc": "history/microsoft.png"
+  }
+
+]
