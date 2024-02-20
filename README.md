@@ -2,12 +2,17 @@
 
 Welcome to my portfolio! This is a showcase of my projects, skills, and experience.
 
+## figma Design
+ I created this portfolio using this figma design
+[click here](https://www.figma.com/file/tkDs3aeBaqvF47hD063LSH/Untitled?type=design&node-id=0-1&mode=design)
+
+
 
 ## About
 
 This portfolio website is built using React.js, showcasing my projects, skills, and experience in the field of [your field or expertise]. It provides an interactive and visually appealing way for visitors to learn about my work and get in touch with me.
 
-![](../../assets/Readme/portfolio-new.png)
+![](portfolio-new.png)
 
 
 
