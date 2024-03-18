@@ -12,7 +12,7 @@ const Hero = () => {
                 <a href={getImageUrl('Resume/MyResume.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
 
             </div>
-            <img src={getImageUrl('hero/heroImage.png')} alt="Hero img of me " className={styles.heroImg} />
+            <img src={getImageUrl('hero/Anurag2.png')} alt="Hero img of me " className={styles.heroImg} />
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>
