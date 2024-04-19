@@ -35,7 +35,7 @@
 }
 .contactBtn {
   text-decoration: none;
-  background-color:   rgba(165, 215, 232, 0.12);
+  background-color: rgba(165, 215, 232, 0.12);
   color: var(--color-text);
   border-radius: 100px;
   font-size: 30px;
@@ -43,16 +43,15 @@
   padding: 17px 26px;
   box-sizing: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   transition: 0.2s;
-  
 }
-.contactBtn:hover{
+.contactBtn:hover {
   /* background-color:   rgba(165, 215, 232, 0.42); */
-  background-color:   rgb(0, 255, 255,.6);
+  background-color: rgb(0, 255, 255, 0.4);
 }
 .heroImg {
   /* margin added after new img */
-  margin-top: 4%; 
-  width: 40%;
+  margin-top: 4%;
+  width: 35%;
   /* clip-path: circle(52% at 50% 50%); */
   z-index: 1;
   animation-name: floating;
@@ -61,47 +60,52 @@
   animation-timing-function: ease-in-out;
 }
 @keyframes floating {
-    0%{
-        transform: translate(0, 0px);
-    }
-    50%{
-        transform: translate(0,10px);
-    }
-    100%{
-        transform: translate(0,-0px);
-    }
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
-.topBlur{
-   position: absolute; 
-   width: 50vw;
-   height: 50vh;
-   min-width: 350px;
-   min-width: 350px;
-   top: -128px;
-   left: 10vw;
-   border-radius: 764px;
-   background: rgba(25,25,109,.7);
-   filter: blur(100px);
-   z-index: 0;
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: 10vw;
+  border-radius: 764px;
+  background: rgba(25, 25, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
 }
-.bottomBlur{
-   position: absolute; 
-   width: 70vw;
-   height: 50vh;
-   min-width: 350px;
-   min-width: 250px;
-   top: 246px;
-   right: -25w;
-   border: 764px;
-   background: rgba(25,25,109,.7);
-   filter: blur(100px);
-   z-index: 0;
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vh;
+  min-width: 350px;
+  min-width: 250px;
+  top: 246px;
+  right: -25w;
+  border: 764px;
+  background: rgba(25, 25, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
 }
-@media screen and (max-width:830px){
-    .container{
-        flex-direction: column-reverse;
-    }
-    .content{
-        align-items: center;
-    }
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .content {
+    align-items: center;
+  }
+  .heroImg {
+    width: 60%;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
