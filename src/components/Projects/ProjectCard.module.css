@@ -6,8 +6,6 @@
   border-radius: 10px;
   /* background: linear-gradient(135deg, #0f25a5, #171f5b); */
   border: 2px inset rgb(0, 255, 255, .2);
-
-
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   padding: 24px;
   max-width: 345px;
@@ -78,5 +76,12 @@
 }
 
 .link:hover {
-  background:  rgb(0, 255, 255,.6);;
+  background:  rgb(0, 255, 255,.6);
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
 }
