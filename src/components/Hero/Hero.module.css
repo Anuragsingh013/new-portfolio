@@ -46,7 +46,8 @@
   
 }
 .contactBtn:hover{
-  background-color:   rgba(165, 215, 232, 0.42);
+  /* background-color:   rgba(165, 215, 232, 0.42); */
+  background-color:   rgb(0, 255, 255,.6);
 }
 .heroImg {
   /* margin added after new img */

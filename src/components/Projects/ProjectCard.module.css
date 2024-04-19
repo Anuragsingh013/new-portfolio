@@ -4,72 +4,79 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
+  /* background: linear-gradient(135deg, #0f25a5, #171f5b); */
+  border: 2px inset rgb(0, 255, 255, .2);
+
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 24px;
   max-width: 345px;
   transition: transform 0.3s ease;
 }
 
 .container:hover {
-  transform: scale(1.02); /* Adjust the scale factor as per your preference */
+  transform: scale(1.04);
 }
-
-
 
 .image {
-  margin-bottom: 26px;
-  overflow: hidden;
   border-radius: 12px;
   height: 210px;
+  object-fit: cover;
 }
 
+.info-section {
+  flex-grow: 1; /* Take remaining space */
+}
 
 .title {
-  font-size: 25px;
+  padding-top: 12px;
+  font-size: 28px;
   font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 12px;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
+  color: var(--color-text-light);
+  margin-bottom: 12px;
 }
 
 .skills {
-  width: 100%;
-  margin-top: 14px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
   list-style: none;
+  cursor: pointer;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-light);
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 6px 12px;
+  border-radius: 20px;
 }
 
 .links {
-  width: 100%;
-  margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 600;
-  border-radius: 100px;
+  padding: 10px 20px;
+  border-radius: 30px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  transition: background 0.3s ease;
 }
-.link:hover{
-  background: #3551c1;;
+
+.link:hover {
+  background:  rgb(0, 255, 255,.6);;
 }

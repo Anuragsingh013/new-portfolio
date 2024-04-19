@@ -2,7 +2,7 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background: var(--color-secondary);
+  background: var(--color-dark);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

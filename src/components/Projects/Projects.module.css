@@ -5,21 +5,24 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+
 }
 
-.title{
+.title {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
-.projects{
-  margin-top:37px ;
+.projects {
+  padding: 37px 12px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  overflow-x: scroll;
   gap: 30px;
-  width:100% ;
+  width: 100%;
+}
+.projects::-webkit-scrollbar {
+  display: none;
 }

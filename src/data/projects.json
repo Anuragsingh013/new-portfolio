@@ -1,25 +1,74 @@
 [
   {
-    "title": "Project A",
+    "title": "Travel Agency",
     "imageSrc": "projects/Travel.png",
-    "description": " multipage travel website! Designed and developed using Vanilla JavaScript.",
-    "skills": ["Javascript", "Swiper.js", "Aos"],
+    "description": " multipage travel website! Designed and developed using  JavaScript.",
+    "skills": [
+      "Javascript",
+      "Swiper.js",
+      "Aos"
+    ],
     "demo": "https://visionary-capybara-810a55.netlify.app/",
     "source": "https://github.com/Anuragsingh013/Travel-agency"
   },
   {
-    "title": "Project B",
+    "title": "Weather App",
     "imageSrc": "projects/weather-new.png",
     "description": "weather application! Built with React and styled with Tailwind CSS",
-    "skills": ["React", "Tailwindcss", "Node"],
+    "skills": [
+      "React",
+      "Tailwindcss",
+      "Node"
+    ],
     "demo": "https://anurag-weather-app-13055.netlify.app/",
     "source": "https://github.com/Anuragsingh013/weather-app"
   },
   {
-    "title": "Project C",
+    "title": "React Todo",
     "imageSrc": "projects/todo05.png",
     "description": "Todo Application Crafted with React and enhanced with Tailwind CSS",
-    "skills": ["React", "Tailwindcss", "Node"],
+    "skills": [
+      "React",
+      "Tailwindcss",
+      "Node"
+    ],
+    "demo": "https://my-todos-00.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/Todo"
+  },
+  {
+    "title": "country App",
+    "imageSrc": "projects/countryImg.png",
+    "description": " React web application  display information about countries.",
+    "skills": [
+      "React",
+      "css",
+      "Node"
+    ],
+    "demo": "https://country-app-013055.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/country-app"
+  },
+  {
+    "title": "Food Delivery ",
+    "imageSrc": "projects/Gfood1.png",
+    "description": "fullstack food delivery application cant host here...",
+    "skills": [
+      "React",
+      "Node",
+      "express",
+      "mongoDb"
+    ],
+    "demo": "cant host here its a fullstack project",
+    "source": "https://github.com/Anuragsingh013/Gfood"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "imageSrc": "projects/TicTacToe.png",
+    "description": "Todo Application Crafted with React and enhanced with Tailwind CSS",
+    "skills": [
+      "React",
+      "Tailwindcss",
+      "Node"
+    ],
     "demo": "https://my-todos-00.netlify.app/",
     "source": "https://github.com/Anuragsingh013/Todo"
   }

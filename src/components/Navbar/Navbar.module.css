@@ -11,12 +11,14 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
 }
-
+.title span{
+  color: aqua;
+}
 
 .menuBtn {
   display: none;
@@ -37,6 +39,10 @@
   color: var(--color-text);
   text-decoration: none;
 }
+.menuItems a:hover{
+color:  aqua;
+}
+
 
 @media screen and (max-width: 830px) {
   .navbar {
