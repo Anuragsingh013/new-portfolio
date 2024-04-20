@@ -5,8 +5,8 @@
   flex-direction: column;
   border-radius: 10px;
   /* background: linear-gradient(135deg, #0f25a5, #171f5b); */
-  border: 2px inset rgb(0, 255, 255, .2);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 2px inset rgb(0, 255, 255, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   padding: 24px;
   max-width: 345px;
   transition: transform 0.3s ease;
@@ -19,7 +19,7 @@
 .image {
   border-radius: 12px;
   height: 210px;
-  object-fit: cover;
+
 }
 
 .info-section {
@@ -76,12 +76,28 @@
 }
 
 .link:hover {
-  background:  rgb(0, 255, 255,.6);
+  background: rgb(0, 255, 255, 0.6);
 }
 
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 100%;
+    max-width: 88%;
+    padding: 12px;
+    
+  }
+  .image {
+    object-fit: contain;
+    border-radius: 0;
+  }
+  .title{
+    padding-top: 4px;
+  }
+  .link {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    gap: 6px;
+  
   }
 }
