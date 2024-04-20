@@ -2,7 +2,7 @@
   {
     "title": "CHAT-AI ",
     "imageSrc": "projects/chatAI.png",
-    "description": "Chatbot using Google Gemini API",
+    "description": "This project is a simple Chatbot using Google Gemini API",
     "skills": [
       "React",
       "Tailwind",
