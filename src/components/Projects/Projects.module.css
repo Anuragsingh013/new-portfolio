@@ -16,6 +16,7 @@
 }
 .projects {
   padding: 37px 12px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,4 +26,16 @@
 }
 .projects::-webkit-scrollbar {
   display: none;
+}
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  /* .container {
+    margin: 0;
+  }
+
+  .title {
+  }
+  .projects {
+   
+  } */
 }
