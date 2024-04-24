@@ -1,17 +1,5 @@
 [
-  {
-    "title": "Food Delivery New",
-    "imageSrc": "projects/tomatoNewProject.png",
-    "description": "This project is Built Using React with very nice User Interface ",
-    "skills": [
-      "React",
-      "Tailwind",
-      "express",
-      "mongoDb"
-    ],
-    "demo": "https://food-delivery-website-black-eight.vercel.app/",
-    "source": "https://github.com/Anuragsingh013/Food_Delivery_Website"
-  },
+ 
   {
     "title": "CHAT-AI ",
     "imageSrc": "projects/chatAI.png",
@@ -36,6 +24,19 @@
     ],
     "demo": "https://country-app-013055.netlify.app/",
     "source": "https://github.com/Anuragsingh013/country-app"
+  },
+  {
+    "title": "Food Delivery New",
+    "imageSrc": "projects/tomatoNewProject.png",
+    "description": "This project is Built Using React with very nice User Interface ",
+    "skills": [
+      "React",
+      "Tailwind",
+      "express",
+      "mongoDb"
+    ],
+    "demo": "https://food-delivery-website-black-eight.vercel.app/",
+    "source": "https://github.com/Anuragsingh013/Food_Delivery_Website"
   },
   {
     "title": "Food Delivery ",
