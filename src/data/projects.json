@@ -1,5 +1,18 @@
 [
   {
+    "title": "Food Delivery New",
+    "imageSrc": "projects/tomatoNewProject.png",
+    "description": "This project is Built using react with very nice UI",
+    "skills": [
+      "React",
+      "Tailwind",
+      "express",
+      "mongoDb"
+    ],
+    "demo": "https://food-delivery-website-black-eight.vercel.app/",
+    "source": "https://github.com/Anuragsingh013/Food_Delivery_Website"
+  },
+  {
     "title": "CHAT-AI ",
     "imageSrc": "projects/chatAI.png",
     "description": "This project is a simple Chatbot using Google Gemini API",
@@ -13,6 +26,18 @@
     "source": "https://github.com/Anuragsingh013/CHAT-AI"
   },
   {
+    "title": "country App",
+    "imageSrc": "projects/countryImg.png",
+    "description": " React web application  display information about countries.",
+    "skills": [
+      "React",
+      "css",
+      "Node"
+    ],
+    "demo": "https://country-app-013055.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/country-app"
+  },
+  {
     "title": "Food Delivery ",
     "imageSrc": "projects/Gfood1.png",
     "description": "fullstack food delivery application cant host here...",
@@ -24,18 +49,6 @@
     ],
     "demo": "https://www.linkedin.com/posts/anurag-singh19_gfood-fooddelivery-fullstackdevelopment-activity-7185862036650635265-7GcR?utm_source=share&utm_medium=member_android",
     "source": "https://github.com/Anuragsingh013/Gfood"
-  },
-  {
-    "title": "country App",
-    "imageSrc": "projects/countryImg.png",
-    "description": " React web application  display information about countries.",
-    "skills": [
-      "React",
-      "css",
-      "Node"
-    ],
-    "demo": "https://country-app-013055.netlify.app/",
-    "source": "https://github.com/Anuragsingh013/country-app"
   },
   {
     "title": "Weather App",

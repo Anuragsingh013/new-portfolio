@@ -5,7 +5,6 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
-
 }
 
 .title {
@@ -29,13 +28,8 @@
 }
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
-  /* .container {
-    margin: 0;
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
   }
-
-  .title {
-  }
-  .projects {
-   
-  } */
 }
