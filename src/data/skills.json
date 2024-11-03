@@ -8,20 +8,31 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascriptLogo.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "React Native",
+    "imageSrc": "skills/reactnative.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "AdobeXd",
+    "imageSrc": "skills/AdobeXD.png"
+  },
+  {
+    "title": "NodeJS",
     "imageSrc": "skills/node.png"
   },
- 
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
   }
 ]

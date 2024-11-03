@@ -98,5 +98,16 @@
     ],
     "demo": "https://visionary-capybara-810a55.netlify.app/",
     "source": "https://github.com/Anuragsingh013/Travel-agency"
+  },
+  {
+    "title": "Vido",
+    "imageSrc": "projects/vidoLogo.jpeg",
+    "description": "Video calling app built using React Native and the ZegoCloud library!",
+    "skills": [
+      "React Native",
+      "ZegoCloud"
+    ],
+    "demo": "https://drive.google.com/file/d/1akKx6GJgLb3e1Zt2SFy0uDCI8rEwhy60/view?usp=sharing",
+    "source": "https://github.com/Anuragsingh013/Vido"
   }
 ]

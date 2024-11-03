@@ -23,7 +23,7 @@ const About = () => {
                     <div className={styles.aboutItemText}>
                         <h3>Backend Developer</h3>
                         <p>
-                            I,m a backend developer with experience in building responsive and optimized sites
+                        I’m a backend developer experienced in building efficient, scalable, and optimized server-side applications
                         </p>
                     </div>
                 </li>

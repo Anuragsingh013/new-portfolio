@@ -1,14 +1,16 @@
 import React from 'react'
-import {getImageUrl} from '../../utils';
+import { getImageUrl } from '../../utils';
 import styles from './Hero.module.css'
 const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I,m Anurag</h1>
-            <p className={styles.description}>I,m a front end developer with 2 years of
-                experince with React and Nodejs.
-                Reach out if you`d like to learn more!</p>
+                <p className={styles.description}>
+                    {/* I,m a front end developer with 2 years of experince with React and Nodejs. Reach out if you`d like to learn more! */}
+                    I'm a Frontend Developer with 6 months of hands-on experience in mobile development. Passionate about building and enhancing mobile and web applications. Reach out if you`d like to learn more!
+
+                </p>
                 <a href={getImageUrl('Resume/updatedResume.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
 
             </div>
