@@ -28,9 +28,24 @@ const Experience = () => {
                                 <li key={id} className={styles.historyItem}>
 
                                     <div className={styles.historyItemDetails}>
-                                        <div style={{display:"flex",alignItems:"center"}}>
-                                            <img src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.organisation} Logo`} style={{borderRadius:"6px",width:"60px",height:"60px"}}/>
-                                            <h3 style={{paddingLeft:"16px"}}>{`${historyItem.role}`}</h3>
+                                        <div style={{ display: "flex", alignItems: "center" }}>
+
+                                            {/* <img src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.organisation} Logo`} style={{borderRadius:"6px",width:"60px",height:"60px"}}/> */}
+                                            {/* Wrap the image in an anchor tag */}
+                                            <a href={historyItem.link} target="_blank" rel="noopener noreferrer">
+                                                <img
+                                                    src={getImageUrl(historyItem.imageSrc)}
+                                                    alt={`${historyItem.organisation} Logo`}
+                                                    style={{
+                                                        borderRadius: "6px",
+                                                        width: "60px",
+                                                        height: "60px"
+                                                    }}
+                                                />
+                                            </a>
+                                            <h3 style={{ paddingLeft: "16px" }}>{`${historyItem.role}`}</h3>
+
+
                                         </div>
                                         <h3>{` ${historyItem.organisation}`}</h3>
                                         <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>

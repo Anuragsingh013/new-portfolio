@@ -7,10 +7,10 @@
     "experiences": [
       "Led UI design and implementation for the SimplyAdmission project (React Native + TypeScript), creating over 50 screens and integrating  mobile functionalities.",
       "Developed and maintained key features in the Student and Teacher app, including new filter UI and various module enhancements.",
-      "Collaborated closely with cross-functional teams to ensure smooth and user-friendly experiences across the app ecosystem.",
       "Handled 20+ updates across Student and Teacher app, focusing on performance optimization, bug fixes, and feature enhancement."
     ],
-    "imageSrc": "history/Edunext.png"
+    "imageSrc": "history/Edunext.png",
+    "link":"https://edunexttechnologies.com/"
   },
   {
     "role": "Web Developer Intern",
