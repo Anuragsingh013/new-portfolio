@@ -11,7 +11,7 @@ const Hero = () => {
                     I'm a Frontend Developer with 6 months of hands-on experience in mobile development. Passionate about building mobile and web applications. Reach out if you`d like to learn more!
 
                 </p>
-                <a href={getImageUrl('Resume/latestResume.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
+                <a href={getImageUrl('Resume/updatedResume.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
 
             </div>
             <img src={getImageUrl('hero/Anurag2.png')} alt="Hero img of me " className={styles.heroImg} />
