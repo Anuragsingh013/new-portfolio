@@ -12,7 +12,7 @@ const Hero = () => {
                     With a background in frontend web development using the MERN stack. 🤝 Let’s connect if you’d like to collaborate or know more!
                     <br />
                     <br />
-                    Last updated : 26-06-2025                    </p>
+                    Last updated : 26/06/25                    </p>
                 <a href={getImageUrl('Resume/updatedResume.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
 
             </div>
