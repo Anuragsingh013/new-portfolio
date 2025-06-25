@@ -8,9 +8,12 @@ const Hero = () => {
                 <h1 className={styles.title}>Hi, I,m Anurag</h1>
                 <p className={styles.description}>
                     {/* I,m a front end developer with 2 years of experince with React and Nodejs. Reach out if you`d like to learn more! */}
-                    I'm a Frontend Developer with 6 months of hands-on experience in mobile development. Passionate about building mobile and web applications. Reach out if you`d like to learn more!
-
-                </p>
+                    I’m a React Native Developer with 1+ year of hands-on experience in mobile app development.
+                    With a background in frontend web development using the MERN stack. I’m passionate about learning new technologies, solving real-world problems,
+                    and delivering impactful Solutions. Let’s connect if you’d like to collaborate or know more ...😀
+                    <br />
+                    <br />
+                    <strong>Last Updated :</strong> 26-06-2025                    </p>
                 <a href={getImageUrl('Resume/updatedResume.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
 
             </div>
