@@ -1,11 +1,17 @@
 :root {
   /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #051c3b;
+  --color-text: #f8f9fa;
+  --color-primary: #00d2ff;
+  --color-secondary: #9d50bb;
+  --color-dark: #12121e;
+  --color-bg: #0a0a0c;
+
+  /* Glassmorphism Styles */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(12px);
 
   /* Fonts */
-  --font-roboto: "Roboto";
+  --font-roboto: "Roboto", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
 }

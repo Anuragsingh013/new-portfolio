@@ -1,16 +1,20 @@
 [
   {
-    "role": "Software Engineer - Mobile Developer",
+    "role": "Software Engineer (Mobile Developer)",
     "organisation": "Edunext Technologies Pvt. Ltd.",
     "startDate": "May 2024",
     "endDate": "Present",
     "experiences": [
-      "Led UI design and implementation for the SimplyAdmission project (React Native + TypeScript), creating over 50 screens and integrating  mobile functionalities.",
-      "Developed and maintained key features in the Student , Teacher , Edunext Management app, including new filter UI and various module enhancements.",
-      "Handled 50+ updates across Student and Teacher app, focusing on performance optimization, bug fixes, and feature enhancement."
+      "Developed and maintained production mobile applications using React Native and TypeScript for over 1M+ users, ensuring stable releases across diverse Android and iOS devices.",
+      "Engineered a core Report Generator and Drag-and-Drop template builder enabling dynamic generation of certificates, receipts, and ID cards with precise canvas mapping.",
+      "Architected the 'simplyAdmission' app from scratch, implementing 50+ screens, complex form handling, and reusable component libraries for long-term maintainability.",
+      "Managed modules for Admin ERP dashboards, focusing on student/staff data, fee tracking, and real-time analytics with structured API integrations.",
+      "Resolved critical production bugs and Android version-specific compatibility issues, maintaining high app ratings and performance standards.",
+      "Collaborated with school stakeholders during on-site visits to translate real-world requirements into intuitive UI/UX improvements.",
+      "Integrated AI-assisted development workflows and agentic patterns to accelerate feature delivery and enhance code reliability."
     ],
     "imageSrc": "history/Edunext.png",
-    "link":"https://edunexttechnologies.com/"
+    "link": "https://edunexttechnologies.com/"
   },
   {
     "role": "Web Developer Intern",

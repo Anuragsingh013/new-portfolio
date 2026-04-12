@@ -1,13 +1,14 @@
-@import "../../vars.css";
 .container {
   color: var(--color-text);
   margin-top: 120px;
   background: var(--color-dark);
+  backdrop-filter: var(--glass-blur);
+  border-top: 1px solid var(--glass-border);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 80px 10%;
   gap: 10px;
 }
 .text h2 {

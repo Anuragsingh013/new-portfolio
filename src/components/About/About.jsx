@@ -12,27 +12,27 @@ const About = () => {
                 <li className={styles.aboutItem }>
                     <img src={getImageUrl('about/cursorIcon.png')} alt="cursor Icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
+                        <h3>Software Engineer (Mobile)</h3>
                         <p>
-                            I,m a frontend developer with experience in building responsive and optimized sites
+                            I specialize in building production-grade mobile applications using React Native and TypeScript, with a focus on scalable architecture.
                         </p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('about/serverIcon.png')} alt="server Icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Backend Developer</h3>
+                        <h3>Frontend Specialist</h3>
                         <p>
-                        I’m a backend developer experienced in building efficient, scalable, and optimized server-side applications
+                            Experienced in developing complex web systems like drag-and-drop report builders and dynamic template generators using React and Redux Toolkit.
                         </p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('about/serverIcon.png')} alt="UI icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>UI Designer</h3>
+                        <h3>UI/UX & Performance</h3>
                         <p>
-                            I, have designed multiple landing pages  and created design systems as well
+                            I focus on creating high-performance, visually stunning interfaces with smooth micro-animations and intuitive user flows.
                         </p>
                     </div>
                 </li>

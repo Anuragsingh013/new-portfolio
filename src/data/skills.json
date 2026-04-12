@@ -8,8 +8,16 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
     "title": "JavaScript",
     "imageSrc": "skills/javascriptLogo.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
   },
   {
     "title": "React",
@@ -20,8 +28,12 @@
     "imageSrc": "skills/reactnative.png"
   },
   {
-    "title": "TypeScript",
-    "imageSrc": "skills/typescript.png"
+    "title": "Redux Toolkit",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Redux Persist",
+    "imageSrc": "skills/react.png"
   },
   {
     "title": "AdobeXd",
@@ -34,5 +46,25 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "C/C++",
+    "imageSrc": "skills/javascriptLogo.png"
+  },
+  {
+    "title": "Android",
+    "imageSrc": "skills/reactnative.png"
+  },
+  {
+    "title": "iOS",
+    "imageSrc": "skills/reactnative.png"
+  },
+  {
+    "title": "AI (Agentic Workflows)",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Git/GitHub",
+    "imageSrc": "skills/javascriptLogo.png"
   }
 ]
