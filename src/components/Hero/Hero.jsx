@@ -10,8 +10,8 @@ const Hero = () => {
                     I’m a Software Engineer with 2+ years of hands-on experience in React Native, React.js, and TypeScript, specializing in building scalable, production-grade applications and complex drag-and-drop systems.
                     <br />
                     <br />
-                    Last updated : April 12, 2026               </p>
-                <a href={getImageUrl('Resume/updatedResumenew.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
+                    Last updated : May 28, 2026               </p>
+                <a href={getImageUrl('Resume/AnuragResume2025.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
 
             </div>
             <img src={getImageUrl('hero/Anurag2.png')} alt="Hero img of me " className={styles.heroImg} />
