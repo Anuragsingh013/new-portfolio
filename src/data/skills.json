@@ -1,70 +1,26 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "group": "Mobile",
+    "items": ["React Native", "Android", "iOS", "Kotlin Native Modules", "React Navigation", "Reanimated", "FlashList", "Vision Camera", "ML Kit", "TensorFlow Lite"]
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "group": "Languages",
+    "items": ["JavaScript (ES6+)", "TypeScript", "Kotlin", "HTML5", "CSS3"]
   },
   {
-    "title": "Tailwind CSS",
-    "imageSrc": "skills/css.png"
+    "group": "State & APIs",
+    "items": ["Redux Toolkit", "Redux Persist", "TanStack Query", "Context API", "Axios", "REST APIs", "JWT", "Formik", "Yup"]
   },
   {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascriptLogo.png"
+    "group": "Web & Backend",
+    "items": ["React.js", "Vite", "Tailwind CSS", "MUI", "Node.js", "Express", "Handlebars", "Puppeteer", "AWS S3", "Gemini API"]
   },
   {
-    "title": "TypeScript",
-    "imageSrc": "skills/typescript.png"
+    "group": "Firebase & Performance",
+    "items": ["FCM", "Crashlytics", "Push Notifications", "React.memo", "useMemo / useCallback", "List Optimization", "Memory Optimization"]
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "React Native",
-    "imageSrc": "skills/reactnative.png"
-  },
-  {
-    "title": "Redux Toolkit",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Redux Persist",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "AdobeXd",
-    "imageSrc": "skills/AdobeXD.png"
-  },
-  {
-    "title": "NodeJS",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "C/C++",
-    "imageSrc": "skills/javascriptLogo.png"
-  },
-  {
-    "title": "Android",
-    "imageSrc": "skills/reactnative.png"
-  },
-  {
-    "title": "iOS",
-    "imageSrc": "skills/reactnative.png"
-  },
-  {
-    "title": "AI (Agentic Workflows)",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "Git/GitHub",
-    "imageSrc": "skills/javascriptLogo.png"
+    "group": "Tools & Release",
+    "items": ["Git", "GitLab", "Postman", "Android Studio", "Xcode", "Gradle", "CocoaPods", "TestFlight", "Play Console", "Claude Code"]
   }
 ]

@@ -1,0 +1,100 @@
+@import "../../vars.css";
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: var(--gradient);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.kind {
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+.metric {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: #0a0b10;
+  background: var(--gradient);
+  white-space: nowrap;
+}
+
+.card h3 {
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-muted);
+  margin-bottom: 16px;
+}
+
+.highlights {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.highlights li {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #c7ccd8;
+}
+
+.highlights li::marker {
+  color: var(--color-primary);
+}
+
+.chips {
+  margin-top: auto;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 22px;
+  }
+}

@@ -1,66 +1,46 @@
-import React from 'react'
-import styles from './Experience.module.css'
-import skills from '../../data/skills.json'
-import history from '../../data/history.json'
-import { getImageUrl } from '../../utils'
+import React from "react";
+import styles from "./Experience.module.css";
+import history from "../../data/history.json";
+import { getImageUrl } from "../../utils";
+
 const Experience = () => {
-    return (
-        <section className={styles.container} id="experience">
-            <h2 className={styles.title}>Experience</h2>
-            <div className={styles.content}>
-                <div className={styles.skills}>
-                    {skills.map((skill, id) => {
-                        return (
-                            <div key={id} className={styles.skill}>
-                                <div className={styles.skillImageContainer}>
-                                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                                </div>
-                                <p>{skill.title}</p>
-                            </div>
-                        );
-                    })}
+  return (
+    <section className="section" id="experience">
+      <span className="eyebrow">Experience</span>
+      <h2 className="sectionTitle">Where I've worked</h2>
+
+      <ol className={styles.timeline}>
+        {history.map((item) => (
+          <li key={`${item.organisation}-${item.role}`} className={styles.entry}>
+            <span className={styles.marker} />
+            <div className={`card ${styles.card}`}>
+              <header className={styles.header}>
+                <img src={getImageUrl(item.imageSrc)} alt="" className={styles.logo} />
+                <div className={styles.titles}>
+                  <h3>{item.role}</h3>
+                  {item.link ? (
+                    <a href={item.link} target="_blank" rel="noreferrer">
+                      {item.organisation}
+                    </a>
+                  ) : (
+                    <span>{item.organisation}</span>
+                  )}
                 </div>
-
-                <ul className={styles.history}>
-                    {
-                        history.map((historyItem, id) => {
-                            return (
-                                <li key={id} className={styles.historyItem}>
-
-                                    <div className={styles.historyItemDetails}>
-                                        <div style={{ display: "flex", alignItems: "center" }}>
-
-                                            {/* <img src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.organisation} Logo`} style={{borderRadius:"6px",width:"60px",height:"60px"}}/> */}
-                                            {/* Wrap the image in an anchor tag */}
-                                            <a href={historyItem.link} target="_blank" rel="noopener noreferrer">
-                                                <img
-                                                    src={getImageUrl(historyItem.imageSrc)}
-                                                    alt={`${historyItem.organisation} Logo`}
-                                                    style={{
-                                                        borderRadius: "6px",
-                                                        width: "60px",
-                                                        height: "60px"
-                                                    }}
-                                                />
-                                            </a>
-                                            <h3 style={{ paddingLeft: "16px" }}>{`${historyItem.role}`}</h3>
-
-
-                                        </div>
-                                        <h3>{` ${historyItem.organisation}`}</h3>
-                                        <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                                        <ul>{historyItem.experiences.map((experience, id) => {
-                                            return <li key={id}>{experience}</li>
-                                        })}</ul>
-                                    </div>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
+                <span className={styles.date}>
+                  {item.startDate} – {item.endDate}
+                </span>
+              </header>
+              <ul className={styles.points}>
+                {item.experiences.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
             </div>
-        </section>
-    )
-}
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+};
 
-export default Experience
+export default Experience;

@@ -1,17 +1,16 @@
 [
   {
-    "role": "Software Engineer (Mobile Developer)",
+    "role": "Software Engineer – React Native Developer",
     "organisation": "Edunext Technologies Pvt. Ltd.",
     "startDate": "May 2024",
     "endDate": "Present",
     "experiences": [
-      "Developed and maintained production mobile applications using React Native and TypeScript for over 1M+ users, ensuring stable releases across diverse Android and iOS devices.",
-      "Engineered a core Report Generator and Drag-and-Drop template builder enabling dynamic generation of certificates, receipts, and ID cards with precise canvas mapping.",
-      "Architected the 'simplyAdmission' app from scratch, implementing 50+ screens, complex form handling, and reusable component libraries for long-term maintainability.",
-      "Managed modules for Admin ERP dashboards, focusing on student/staff data, fee tracking, and real-time analytics with structured API integrations.",
-      "Resolved critical production bugs and Android version-specific compatibility issues, maintaining high app ratings and performance standards.",
-      "Collaborated with school stakeholders during on-site visits to translate real-world requirements into intuitive UI/UX improvements.",
-      "Integrated AI-assisted development workflows and agentic patterns to accelerate feature delivery and enhance code reliability."
+      "Core developer on 4 production React Native apps (Parent, Teacher, Management, SimplyAdmission) serving parents, students, teachers, and school leadership — 680+ commits across the codebases.",
+      "Built a Kotlin native module for face-recognition attendance using ML Kit and TensorFlow Lite (MobileFaceNet) with geofenced check-in; fixed out-of-memory crashes on low-end devices.",
+      "Built an in-app developer debug tool to override base and microservice URLs at runtime, inspect API request logs, and copy requests as cURL.",
+      "Implemented Axios interceptors with refresh-token handling, force/in-app updates, and Android 16KB page-size compliance; improved data-heavy screens with FlashList and memoization.",
+      "Lead the EduNext Teacher app — error tickets, urgent issues, testing, and Play Store / App Store releases.",
+      "Built Parent Corner modules (OTP-verified consent forms, cafeteria, fee installments, profile) in the TypeScript React.js Student ERP portal using TanStack Query."
     ],
     "imageSrc": "history/Edunext.png",
     "link": "https://edunexttechnologies.com/"
@@ -19,8 +18,8 @@
   {
     "role": "Web Developer Intern",
     "organisation": "OctaNet Services Pvt Ltd.",
-    "startDate": "Sept, 2023",
-    "endDate": "Oct, 2023",
+    "startDate": "Sep 2023",
+    "endDate": "Oct 2023",
     "experiences": [
       "Focused on logic and functionality improvements across various React applications.",
       "Developed interactive features to enhance user experience and engagement."
@@ -29,12 +28,12 @@
   },
   {
     "role": "UI Designer",
-    "organisation": "Self-Employed",
-    "startDate": "Aug, 2021",
+    "organisation": "Freelance",
+    "startDate": "Aug 2021",
     "endDate": "Present",
     "experiences": [
-      "Designed and delivered 20+ website interfaces, with a focus on user-centered design principles.",
-      "Worked independently to create visually appealing and functional layouts across diverse client projects."
+      "Designed and delivered 20+ website interfaces with a focus on user-centered design.",
+      "Created visually appealing, functional layouts across diverse client projects."
     ],
     "imageSrc": "history/ui.png"
   }

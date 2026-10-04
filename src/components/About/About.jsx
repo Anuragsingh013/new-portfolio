@@ -1,46 +1,24 @@
-import React from 'react'
-import { getImageUrl } from '../../utils'
-import styles from './About.module.css'
+import React from "react";
+import styles from "./About.module.css";
+import profile from "../../data/profile.json";
+
 const About = () => {
-    return (
-        <section className={styles.container} id='about'>
-            <h2 className={styles.title}>About Me</h2>
-            <div className={styles.content}>
-                <img src={getImageUrl('about/aboutImage.png')} alt='me sitting with a laptop' className={styles.aboutImage}  />
-            
-            <ul className={styles.aboutItems}>
-                <li className={styles.aboutItem }>
-                    <img src={getImageUrl('about/cursorIcon.png')} alt="cursor Icon" />
-                    <div className={styles.aboutItemText}>
-                        <h3>Software Engineer (Mobile)</h3>
-                        <p>
-                            I specialize in building production-grade mobile applications using React Native and TypeScript, with a focus on scalable architecture.
-                        </p>
-                    </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl('about/serverIcon.png')} alt="server Icon" />
-                    <div className={styles.aboutItemText}>
-                        <h3>Frontend Specialist</h3>
-                        <p>
-                            Experienced in developing complex web systems like drag-and-drop report builders and dynamic template generators using React and Redux Toolkit.
-                        </p>
-                    </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl('about/serverIcon.png')} alt="UI icon" />
-                    <div className={styles.aboutItemText}>
-                        <h3>UI/UX & Performance</h3>
-                        <p>
-                            I focus on creating high-performance, visually stunning interfaces with smooth micro-animations and intuitive user flows.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-            </div>
+  return (
+    <section className="section" id="about">
+      <span className="eyebrow">About</span>
+      <h2 className="sectionTitle">What I do</h2>
 
-        </section>
-    )
-}
+      <ul className={styles.grid}>
+        {profile.about.map((item, id) => (
+          <li key={item.title} className={`card ${styles.item}`}>
+            <span className={styles.index}>0{id + 1}</span>
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+};
 
-export default About
+export default About;

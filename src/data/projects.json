@@ -1,112 +1,75 @@
 [
   {
-    "title": "CHAT-AI ",
-    "imageSrc": "projects/chatAI.png",
-    "description": "This project is a simple Chatbot using Google Gemini API",
-    "skills": [
-      "React",
-      "Tailwind",
-      "express",
-      "mongoDb"
-    ],
-    "demo": "https://chat-ai-website.netlify.app/",
-    "source": "https://github.com/Anuragsingh013/CHAT-AI"
-  },
-  {
-    "title": "country App",
-    "imageSrc": "projects/countryImg.png",
-    "description": " React web application  display information about countries.",
-    "skills": [
-      "React",
-      "css",
-      "Node"
-    ],
-    "demo": "https://country-app-013055.netlify.app/",
-    "source": "https://github.com/Anuragsingh013/country-app"
-  },
-  {
-    "title": "Food Delivery New",
-    "imageSrc": "projects/tomatoNewProject.png",
-    "description": "This project is Built Using React with very nice User Interface ",
-    "skills": [
-      "React",
-      "Tailwind",
-      "express",
-      "mongoDb"
-    ],
-    "demo": "https://food-delivery-website-black-eight.vercel.app/",
-    "source": "https://github.com/Anuragsingh013/Food_Delivery_Website"
-  },
-  {
-    "title": "Food Delivery ",
-    "imageSrc": "projects/Gfood1.png",
-    "description": "Fullstack food delivery application can not host here....",
-    "skills": [
-      "React",
-      "Node",
-      "express",
-      "mongoDb"
-    ],
-    "demo": "https://www.linkedin.com/posts/anurag-singh19_gfood-fooddelivery-fullstackdevelopment-activity-7185862036650635265-7GcR?utm_source=share&utm_medium=member_android",
-    "source": "https://github.com/Anuragsingh013/Gfood"
-  },
-  {
-    "title": "Weather App",
-    "imageSrc": "projects/weather-new.png",
-    "description": "weather application! Built with React and styled with Tailwind CSS",
-    "skills": [
-      "React",
-      "Tailwindcss",
-      "Node"
-    ],
-    "demo": "https://anurag-weather-app-13055.netlify.app/",
-    "source": "https://github.com/Anuragsingh013/weather-app"
-  },
-  {
-    "title": "React Todo",
-    "imageSrc": "projects/todo05.png",
-    "description": "Todo Application Crafted with React and enhanced with Tailwind CSS",
-    "skills": [
-      "React",
-      "Tailwindcss",
-      "Node"
-    ],
-    "demo": "https://my-todos-00.netlify.app/",
-    "source": "https://github.com/Anuragsingh013/Todo"
-  },
-  {
-    "title": "Tic Tac Toe",
-    "imageSrc": "projects/TicTacToe.png",
-    "description": "Todo Application Crafted with React and enhanced with Tailwind CSS",
-    "skills": [
-      "React",
-      "Tailwindcss",
-      "Node"
-    ],
-    "demo": "https://github.com/Anuragsingh013/Practice-Projects/tree/main/JS-Practice-Project/Tic-Tac-Toe",
-    "source": "https://github.com/Anuragsingh013/Practice-Projects/tree/main/JS-Practice-Project/Tic-Tac-Toe"
-  },
-  {
-    "title": "Travel Agency",
-    "imageSrc": "projects/Travel.png",
-    "description": " multipage travel website! Designed and developed using  JavaScript.",
-    "skills": [
-      "Javascript",
-      "Swiper.js",
-      "Aos"
-    ],
-    "demo": "https://visionary-capybara-810a55.netlify.app/",
-    "source": "https://github.com/Anuragsingh013/Travel-agency"
-  },
-  {
     "title": "Vido",
     "imageSrc": "projects/vidoLogo.jpeg",
-    "description": "Video calling app built using React Native and the ZegoCloud library!",
+    "description": "Video calling app built with React Native and the ZegoCloud SDK.",
     "skills": [
       "React Native",
       "ZegoCloud"
     ],
     "demo": "https://drive.google.com/file/d/1akKx6GJgLb3e1Zt2SFy0uDCI8rEwhy60/view?usp=sharing",
     "source": "https://github.com/Anuragsingh013/Vido"
+  },
+  {
+    "title": "Chat AI",
+    "imageSrc": "projects/chatAI.png",
+    "description": "A chatbot powered by the Google Gemini API.",
+    "skills": [
+      "React",
+      "Tailwind",
+      "Express",
+      "MongoDB"
+    ],
+    "demo": "https://chat-ai-website.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/CHAT-AI"
+  },
+  {
+    "title": "Food Delivery",
+    "imageSrc": "projects/tomatoNewProject.png",
+    "description": "Food ordering website with a clean, responsive interface.",
+    "skills": [
+      "React",
+      "Tailwind",
+      "Express",
+      "MongoDB"
+    ],
+    "demo": "https://food-delivery-website-black-eight.vercel.app/",
+    "source": "https://github.com/Anuragsingh013/Food_Delivery_Website"
+  },
+  {
+    "title": "GFood (Full-Stack)",
+    "imageSrc": "projects/Gfood1.png",
+    "description": "Full-stack food delivery app. Demo video on LinkedIn.",
+    "skills": [
+      "React",
+      "Node",
+      "Express",
+      "MongoDB"
+    ],
+    "demo": "https://www.linkedin.com/posts/anurag-singh19_gfood-fooddelivery-fullstackdevelopment-activity-7185862036650635265-7GcR",
+    "source": "https://github.com/Anuragsingh013/Gfood"
+  },
+  {
+    "title": "Country Explorer",
+    "imageSrc": "projects/countryImg.png",
+    "description": "Browse and search information about countries around the world.",
+    "skills": [
+      "React",
+      "CSS"
+    ],
+    "demo": "https://country-app-013055.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/country-app"
+  },
+  {
+    "title": "Travel Agency",
+    "imageSrc": "projects/Travel.png",
+    "description": "Multi-page travel website with sliders and scroll animations.",
+    "skills": [
+      "JavaScript",
+      "Swiper.js",
+      "AOS"
+    ],
+    "demo": "https://visionary-capybara-810a55.netlify.app/",
+    "source": "https://github.com/Anuragsingh013/Travel-agency"
   }
 ]

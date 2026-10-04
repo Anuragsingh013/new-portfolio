@@ -1,86 +1,113 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  border-bottom: 1px solid transparent;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.scrolled {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-bottom-color: var(--color-border);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 16px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 31px;
-  z-index: 2;
-  margin: 0 8%;
 }
 
-.title {
-  font-size: 35px;
-  font-weight: 600;
+.logo {
+  font-size: 22px;
+  font-weight: 700;
   text-decoration: none;
   color: var(--color-text);
 }
-.title span{
+
+.logo span {
   color: var(--color-primary);
-}
-
-.menuBtn {
-  display: none;
-}
-
-.menu {
-  display: flex;
 }
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  align-items: center;
+  gap: 28px;
   list-style: none;
 }
 
-.menuItems a {
-  font-size: 25px;
-  color: var(--color-text);
+.menuItems a:not(.resumeBtn) {
+  font-size: 15px;
+  color: var(--color-muted);
   text-decoration: none;
-}
-.menuItems a:hover{
-color:  var(--color-primary);
-border-bottom: 2px solid var(--color-primary);
+  transition: color 0.2s ease;
 }
 
+.menuItems a:not(.resumeBtn):hover {
+  color: var(--color-text);
+}
 
-@media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.resumeBtn {
+  padding: 9px 18px;
+  font-size: 14px;
+}
 
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
+.menuBtn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuBtn img {
+  width: 26px;
+  height: 26px;
+}
+
+@media (max-width: 860px) {
+  .inner {
+    padding: 14px 16px;
   }
 
   .menuBtn {
     display: block;
-    cursor: pointer;
   }
 
   .menuItems {
     display: none;
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    left: 16px;
     flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: var(--glass-bg);
-    backdrop-filter: var(--glass-blur);
-    border: 1px solid var(--glass-border);
-    padding: 24px 33px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    align-items: stretch;
+    gap: 4px;
+    padding: 12px;
+    border-radius: var(--radius);
+    background: var(--color-surface-2);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .menuItems a:not(.resumeBtn) {
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .resumeBtn {
+    justify-content: center;
+    margin-top: 6px;
   }
 
   .menuOpen {
     display: flex;
-    z-index: 1;
   }
 }

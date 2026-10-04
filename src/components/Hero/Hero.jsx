@@ -1,24 +1,51 @@
-import React from 'react'
-import { getImageUrl } from '../../utils';
-import styles from './Hero.module.css'
+import React from "react";
+import { getImageUrl } from "../../utils";
+import styles from "./Hero.module.css";
+import profile from "../../data/profile.json";
+
 const Hero = () => {
-    return (
-        <section className={styles.container}>
-            <div className={styles.content}>
-                <h1 className={styles.title}>Hi, I'm Anurag</h1>
-                <p className={styles.description}>
-                    I’m a Software Engineer with 2+ years of hands-on experience in React Native, React.js, and TypeScript, specializing in building scalable, production-grade applications and complex drag-and-drop systems.
-                    <br />
-                    <br />
-                    Last updated : May 28, 2026               </p>
-                <a href={getImageUrl('Resume/AnuragResume2025.pdf')} target='_blank' className={styles.contactBtn}>Download Resume</a>
+  return (
+    <section className={`section ${styles.container}`} id="top">
+      <div className={styles.content}>
+        <span className={styles.badge}>
+          <span className={styles.dot} /> {profile.role} · {profile.location}
+        </span>
+        <h1 className={styles.title}>
+          Hi, I'm <span>Anurag Singh</span>
+        </h1>
+        <p className={styles.description}>{profile.tagline}</p>
 
-            </div>
-            <img src={getImageUrl('hero/Anurag2.png')} alt="Hero img of me " className={styles.heroImg} />
-            <div className={styles.topBlur} />
-            <div className={styles.bottomBlur} />
-        </section>
-    )
-}
+        <div className={styles.actions}>
+          <a
+            href={getImageUrl(profile.resume)}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btnPrimary"
+          >
+            Download Resume
+          </a>
+          <a href="#contact" className="btn btnGhost">
+            Get in touch
+          </a>
+        </div>
 
-export default Hero
+        <ul className={styles.stats}>
+          {profile.stats.map((stat) => (
+            <li key={stat.label}>
+              <strong>{stat.value}</strong>
+              <span>{stat.label}</span>
+            </li>
+          ))}
+        </ul>
+
+        <p className={styles.updated}>Last updated: {profile.lastUpdated}</p>
+      </div>
+
+      <div className={styles.imageWrap}>
+        <img src={getImageUrl("hero/Anurag2.png")} alt="Anurag Singh" className={styles.heroImg} />
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

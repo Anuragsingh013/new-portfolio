@@ -1,15 +1,23 @@
 :root {
   /* Colours */
-  --color-text: #f8f9fa;
-  --color-primary: #00d2ff;
-  --color-secondary: #9d50bb;
-  --color-dark: #12121e;
-  --color-bg: #0a0a0c;
+  --color-bg: #0a0b10;
+  --color-surface: #12141c;
+  --color-surface-2: #181b25;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.16);
+  --color-text: #eef0f5;
+  --color-muted: #9aa1b2;
+  --color-primary: #38bdf8;
+  --color-secondary: #a78bfa;
+  --gradient: linear-gradient(120deg, var(--color-primary), var(--color-secondary));
 
-  /* Glassmorphism Styles */
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-blur: blur(12px);
+  /* Glassmorphism */
+  --glass-bg: rgba(18, 20, 28, 0.72);
+  --glass-blur: blur(14px);
+
+  /* Layout */
+  --radius: 16px;
+  --max-width: 1120px;
 
   /* Fonts */
   --font-roboto: "Roboto", sans-serif;

@@ -1,0 +1,31 @@
+{
+  "name": "Anurag Singh",
+  "role": "React Native Developer",
+  "tagline": "I build and ship production Android & iOS apps — from Kotlin native modules and on-device ML to the release pipeline — plus full-stack React + Node.js tools.",
+  "lastUpdated": "October 4, 2026",
+  "resume": "Resume/Anurag_Singh_Resume.pdf",
+  "email": "thakuranuragsingh099@gmail.com",
+  "location": "Ghaziabad, India",
+  "linkedin": "https://www.linkedin.com/in/anurag-singh19",
+  "github": "https://github.com/Anuragsingh013",
+  "stats": [
+    { "value": "2.5+", "label": "Years experience" },
+    { "value": "5+", "label": "Production apps" },
+    { "value": "1M+", "label": "Users served" },
+    { "value": "680+", "label": "Commits shipped" }
+  ],
+  "about": [
+    {
+      "title": "Mobile, end to end",
+      "text": "React Native apps for Android and iOS — features, Kotlin native modules, push notifications, and Play Store / App Store releases."
+    },
+    {
+      "title": "Full-stack when needed",
+      "text": "Co-built a drag-and-drop template builder in React with a Node.js + Puppeteer PDF service and AI template generation using Gemini."
+    },
+    {
+      "title": "Ownership & performance",
+      "text": "I lead a production app's support and releases, and I care about smooth lists, memory on low-end devices, and fast debugging."
+    }
+  ]
+}

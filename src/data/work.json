@@ -1,0 +1,49 @@
+[
+  {
+    "title": "EduNext Parent, Teacher & Management",
+    "kind": "Production mobile apps",
+    "metric": "1M+ users",
+    "description": "A suite of school apps for parents and students, teachers, and school leadership across multiple branches.",
+    "highlights": [
+      "Parent (1M+ users): dashboard redesign, homework, timetable, calendar, gallery, quiz, library, screenshot protection.",
+      "Teacher: built requisition and transport communication end-to-end; lead the app's support and releases.",
+      "Management: top contributor — finance modules, payroll, grievances, and 20+ analytics screens."
+    ],
+    "skills": ["React Native", "Redux Toolkit", "Firebase", "Kotlin", "Gifted Charts"]
+  },
+  {
+    "title": "Face-Recognition Attendance",
+    "kind": "Native module · On-device ML",
+    "metric": "Kotlin + TFLite",
+    "description": "Selfie-based attendance for teachers, running fully on the device inside the React Native app.",
+    "highlights": [
+      "Kotlin native module using ML Kit face detection and a TensorFlow Lite MobileFaceNet model for face embeddings.",
+      "Geofenced check-in using live location against a school radius.",
+      "Fixed out-of-memory crashes on low-end phones with lazy model loading and image downscaling."
+    ],
+    "skills": ["Kotlin", "ML Kit", "TensorFlow Lite", "React Native"]
+  },
+  {
+    "title": "Report & Template Builder",
+    "kind": "Full-stack web",
+    "metric": "3 products",
+    "description": "A drag-and-drop canvas editor for report cards, certificates, receipts, and ID cards, with a PDF rendering service.",
+    "highlights": [
+      "Canvas-to-Handlebars export engine with data binding, conditional logic, repeating table rows, charts, QR codes, and barcodes.",
+      "AI template generation with the Gemini vision API — upload a document image, get an editable template.",
+      "Node.js + Puppeteer PDF service: custom Handlebars helpers, multi-copy PDFs, font embedding, ZIP / AWS S3 export."
+    ],
+    "skills": ["React.js", "Redux Toolkit", "Node.js", "Puppeteer", "Gemini"]
+  },
+  {
+    "title": "SimplyAdmission",
+    "kind": "Mobile app · Built from scratch",
+    "metric": "50+ screens",
+    "description": "An admission-management app that runs a school's full admission funnel.",
+    "highlights": [
+      "Covers enquiries, form sales, counsellor meetings, school tours, admissions, and lead tracking.",
+      "Reusable components, dynamic forms, and filters in a modular architecture."
+    ],
+    "skills": ["React Native", "TypeScript", "Redux Toolkit"]
+  }
+]
